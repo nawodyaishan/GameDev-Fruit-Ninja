@@ -25,6 +25,7 @@ public class Fruit : MonoBehaviour
             rigidbody.AddExplosionForce(Random.Range(500, 1000), transform.position, 5f);
         }
 
+        Destroy(slicedInstance, 5f);
         Destroy(gameObject);
     }
 }

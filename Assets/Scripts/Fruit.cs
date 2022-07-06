@@ -7,10 +7,6 @@ public class Fruit : MonoBehaviour
 {
     public GameObject slicedFruitPrefab;
 
-    void Start()
-    {
-    }
-
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space))

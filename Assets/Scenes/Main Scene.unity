@@ -252,8 +252,8 @@ Camera:
   m_GameObject: {fileID: 963194225}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 1, g: 1, b: 1, a: 1}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -301,60 +301,60 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1544517367441344479
+--- !u!1001 &5463559107659751294
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1544517366259960864, guid: 9dda6c91443bd4bfc9d74480ae8d40af, type: 3}
+    - target: {fileID: 5463559108026566676, guid: cefc8638d21a24b669eac25aee2c4a11, type: 3}
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 1544517366259960864, guid: 9dda6c91443bd4bfc9d74480ae8d40af, type: 3}
+    - target: {fileID: 5463559108026566676, guid: cefc8638d21a24b669eac25aee2c4a11, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0
+      value: 0.69029856
       objectReference: {fileID: 0}
-    - target: {fileID: 1544517366259960864, guid: 9dda6c91443bd4bfc9d74480ae8d40af, type: 3}
+    - target: {fileID: 5463559108026566676, guid: cefc8638d21a24b669eac25aee2c4a11, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.67
+      value: 2.9
       objectReference: {fileID: 0}
-    - target: {fileID: 1544517366259960864, guid: 9dda6c91443bd4bfc9d74480ae8d40af, type: 3}
+    - target: {fileID: 5463559108026566676, guid: cefc8638d21a24b669eac25aee2c4a11, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 7.14
+      value: -3.45
       objectReference: {fileID: 0}
-    - target: {fileID: 1544517366259960864, guid: 9dda6c91443bd4bfc9d74480ae8d40af, type: 3}
+    - target: {fileID: 5463559108026566676, guid: cefc8638d21a24b669eac25aee2c4a11, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.7071067
+      value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 1544517366259960864, guid: 9dda6c91443bd4bfc9d74480ae8d40af, type: 3}
+    - target: {fileID: 5463559108026566676, guid: cefc8638d21a24b669eac25aee2c4a11, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.7071068
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1544517366259960864, guid: 9dda6c91443bd4bfc9d74480ae8d40af, type: 3}
+    - target: {fileID: 5463559108026566676, guid: cefc8638d21a24b669eac25aee2c4a11, type: 3}
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1544517366259960864, guid: 9dda6c91443bd4bfc9d74480ae8d40af, type: 3}
+    - target: {fileID: 5463559108026566676, guid: cefc8638d21a24b669eac25aee2c4a11, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1544517366259960864, guid: 9dda6c91443bd4bfc9d74480ae8d40af, type: 3}
+    - target: {fileID: 5463559108026566676, guid: cefc8638d21a24b669eac25aee2c4a11, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1544517366259960864, guid: 9dda6c91443bd4bfc9d74480ae8d40af, type: 3}
+    - target: {fileID: 5463559108026566676, guid: cefc8638d21a24b669eac25aee2c4a11, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1544517366259960864, guid: 9dda6c91443bd4bfc9d74480ae8d40af, type: 3}
+    - target: {fileID: 5463559108026566676, guid: cefc8638d21a24b669eac25aee2c4a11, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1544517366260387840, guid: 9dda6c91443bd4bfc9d74480ae8d40af, type: 3}
+    - target: {fileID: 5463559108026566679, guid: cefc8638d21a24b669eac25aee2c4a11, type: 3}
       propertyPath: m_Name
-      value: Orange
+      value: Spawner
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 9dda6c91443bd4bfc9d74480ae8d40af, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: cefc8638d21a24b669eac25aee2c4a11, type: 3}

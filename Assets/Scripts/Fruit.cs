@@ -1,7 +1,9 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Security.Cryptography;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class Fruit : MonoBehaviour
 {
@@ -27,5 +29,18 @@ public class Fruit : MonoBehaviour
 
         Destroy(slicedInstance, 5f);
         Destroy(gameObject);
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        Blade blade = other.GetComponent<Blade>();
+        if (!blade)
+        {
+            return;
+        }
+        else
+        {
+            CreateSlicedFruit();
+        }
     }
 }

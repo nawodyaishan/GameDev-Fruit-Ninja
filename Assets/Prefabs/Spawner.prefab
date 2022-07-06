@@ -44,10 +44,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c13a0308950a049d3997893c367cbe27, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _fruitToSpawn: {fileID: 0}
+  _fruitToSpawn: {fileID: 1544517366260387840, guid: 9dda6c91443bd4bfc9d74480ae8d40af, type: 3}
   _spawnPlaces:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
   minWait: 0.3
   maxWait: 1
+  minForce: 5.27
+  maxForce: 13.3

@@ -7,20 +7,28 @@ public class Fruit : MonoBehaviour
 {
     public GameObject slicedFruitPrefab;
 
-
-    // Start is called before the first frame update
     void Start()
     {
     }
 
-    // Update is called once per frame
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.Space))
+            CreateSlicedFruit();
     }
 
     public void CreateSlicedFruit()
     {
-        Instantiate(slicedFruitPrefab, transform.position, transform.rotation);
+        GameObject slicedInstance = Instantiate(slicedFruitPrefab, transform.position, transform.rotation);
+
+        Rigidbody[] rigidbodiesOnSliced = slicedInstance.transform.GetComponentsInChildren<Rigidbody>();
+
+        foreach (Rigidbody rigidbody in rigidbodiesOnSliced)
+        {
+            rigidbody.transform.rotation = Random.rotation;
+            rigidbody.AddExplosionForce(Random.Range(500, 1000), transform.position, 5f);
+        }
+
         Destroy(gameObject);
     }
 }
